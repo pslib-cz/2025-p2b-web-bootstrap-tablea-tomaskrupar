@@ -1,15 +1,114 @@
 <!DOCTYPE html>
 <html lang="cs">
-
+ 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bootstrap tables</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
 </head>
 
  <body> <!-- htmltagwrap alt+w -->
     <main class="container table-responsive my-4">
-            Výsledky školních testů z matematiky a češtiny – třídy 1.A a 1.B
+    <table class="table table-striped table-bordered table-hover">
+        <thead class="table-dark">
+            <tr>
+                <th>Jméno</th>
+                <th>Matematika</th>
+                <th>Čeština</th>
+                <th>Matematika</th>
+                <th>Čeština</th>
+                <th>Průměr</th>
+            </tr>
+        </thead>
+        
+        <tbody>
+            <tr>
+                <th class="text-center table-secondary">Třída 1.A</th>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+
+            <tr>
+                <th class="fw-normal">Anna Nováková</th>
+                <td>85</td>
+                <td>90</td>
+                <td>88</td>
+                <td>92</td>
+                <td>88,8</td>
+            </tr>
+
+            <tr>
+                <th class="fw-normal">Petr Svoboda</th>
+                <td>78</td>
+                <td>82</td>
+                <td>80</td>
+                <td>85</td>
+                <td>81,3</td>
+            </tr>
+
+            <tr>
+                <th class="fw-normal">Jana Dvořáková</th>
+                <td>92</td>
+                <td>88</td>
+                <td>90</td>
+                <td>89</td>
+                <td>89,8</td>
+            </tr>
+        </tbody>
+
+        <tbody>
+            <tr>
+                <th class="text-center table-secondary">Třída 1.B</th>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+
+            <tr>
+                <th class="fw-normal">Martin Kopecký</th>
+                <td>80</td>
+                <td>85</td>
+                <td>82</td>
+                <td>88</td>
+                <td>83,8</td>
+            </tr>
+
+            <tr>
+                <th class="fw-normal">Lukáš Veselý</th>
+                <td>75</td>
+                <td>78</td>
+                <td>77</td>
+                <td>80</td>
+                <td>77,5</td>
+            </tr>
+
+            <tr>
+                <th class="fw-normal">Eva Procházková</th>
+                <td>88</td>
+                <td>91</td>
+                <td>90</td>
+                <td>93</td>
+                <td>90,5</td>
+            </tr>
+        </tbody>
+
+        <tfoot class="table-info">
+            <th>Průměr třídy</th>
+            <td>83,2</td>
+            <td>86,0</td>
+            <td>84,8</td>
+            <td>89,5</td>
+            <td class="fw-bold">85,9</td>
+        </tfoot>
+
+        <caption class="lead"> Výsledky školních testů z matematiky a češtiny – třídy 1.A a 1.B</caption>
             <col role="columnheader">
             <colgroup role="region">
                 <col>
@@ -20,66 +119,8 @@
                 <col>
             </colgroup>
             <col>                
-                    Jméno
-                    Matematika
-                    Čeština
-                    Matematika
-                    Čeština
-                    Průměr
-                    
-                    Třída 1.A
-                         
-                    Anna Nováková
-                    85
-                    90
-                    88
-                    92
-                    88,8
-                            
-                    Petr Svoboda
-                    78
-                    82
-                    80
-                    85
-                    81,3  
-                
-                    Jana Dvořáková
-                    92
-                    88
-                    90
-                    89
-                    89,8
-                
-                    Třída 1.B
-                    
-                    Martin Kopecký
-                    80
-                    85
-                    82
-                    88
-                    83,8
-                
-                    Lukáš Veselý
-                    75
-                    78
-                    77
-                    80
-                    77,5
-                
-                    Eva Procházková
-                    88
-                    91
-                    90
-                    93
-                    90,5
-                
-                    Průměr třídy
-                    83,2
-                    86,0
-                    84,8
-                    89,5
-                    85,9
+    </table>
     </main>
 </body>
-
+ 
 </html>
